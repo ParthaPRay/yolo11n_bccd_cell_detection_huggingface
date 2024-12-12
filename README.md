@@ -216,8 +216,9 @@ Per-Class Metrics:
 2: Precision=0.9979197909151334, Recall=1.0, mAP50=0.995, mAP50-95=0.8260725078341811
 ```
 
-# Hard code above  metrics into below code respective metrics
+# Hard code above metrics into below code 'app.py' respective metrics
 
+**app.py**
 
 ```python
 import os
@@ -365,3 +366,28 @@ with gr.Blocks() as demo:
 
 demo.launch()
 ```
+# Prepare requirements.txt
+
+**requirements.txt**
+
+```python
+ultralytics 
+gradio
+```
+
+# Create huggingface account and space (free)
+
+Upload all files to the Huggingface Space with a suitable name such as "csepartha/yolon11_bccd_objection_detection"
+
+![image](https://github.com/user-attachments/assets/4805b4b6-30b6-4599-95a6-5ba5ea086fdb)
+
+
+# Run app 
+
+https://huggingface.co/spaces/csepartha/yolon11_bccd_objection_detection
+
+Upload a test iamge from BCCD local folder to the app and click **Run Inference** below output along with Overall class and individual cell centric comaprison table is shown.
+
+![image](https://github.com/user-attachments/assets/f276fb39-556e-4603-8af2-b951c5e6eb90)
+![image](https://github.com/user-attachments/assets/827fc5a0-a7bb-4798-907a-fd4e94dfd4f5)
+
