@@ -384,7 +384,7 @@ Upload all files to the Huggingface Space with a suitable name such as "cseparth
 
 # Run app 
 
-https://huggingface.co/spaces/csepartha/yolon11_bccd_objection_detection
+Huggingface space: https://huggingface.co/spaces/csepartha/yolon11_bccd_objection_detection
 
 Upload a test iamge from BCCD local folder to the app and click **Run Inference** below output along with Overall class and individual cell centric comaprison table is shown.
 
