@@ -4,8 +4,8 @@
 
 from ultralytics import YOLO
 
-model_path = "/content/runs/detect/train/weights/best.pt"  # your trained model
-data_yaml_path = "/content/bccd_rbc_wbc_platelets-1/data.yaml"  # dataset configuration file
+#model_path = "/content/runs/detect/train/weights/best.pt"  # your trained model
+#data_yaml_path = "/content/bccd_rbc_wbc_platelets-1/data.yaml"  # dataset configuration file
 
 #model = YOLO(model_path)
 #metrics = model.val(data=data_yaml_path)  # ensure data.yaml points to the correct valid set
@@ -52,8 +52,8 @@ import yaml
 import gradio as gr
 import pandas as pd
 
-model_path = "best.pt"
-data_yaml_path = "data.yaml"
+model_path = "best.pt"   # Keep best.pt on same directory
+data_yaml_path = "data.yaml"  # Keep data.yaml on same directory
 
 if not os.path.exists(model_path):
     raise FileNotFoundError(f"Model file not found at {model_path}.")
