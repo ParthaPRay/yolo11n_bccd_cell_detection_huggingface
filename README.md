@@ -1,4 +1,4 @@
-# yolon11_bccd_cell_detection
+# yolo11n_bccd_cell_detection
 This repo contains codes to fine tune yolon11 and with bccd dataset for RBC, WBC and Platelets cell object detection
 
 # Yolon11 Fine Tuning for BCCD Dataset object detection
@@ -73,7 +73,17 @@ Dataset Split
 
 ![image](https://github.com/user-attachments/assets/c921f83c-965c-4e1e-bb78-b07a28323d8a)
 
+---
 
+# Roboflow project for Yolo11
+
+Then select Roboflow project for Yolo11 as below
+
+![image](https://github.com/user-attachments/assets/45e8136d-4d57-4d50-80c0-b7bf2d167d35)
+
+It will allow to download the above projct by below code
+
+![image](https://github.com/user-attachments/assets/3a4b9705-cf66-4b97-8f70-e5890a124b8a)
 
 
 
