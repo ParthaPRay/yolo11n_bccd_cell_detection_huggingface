@@ -87,8 +87,7 @@ It will allow to download the above projct by below code
 
 # Then code below
 
-
-'''python
+```python
 # copy code from https://docs.ultralytics.com/tasks/detect/#faq
 
 # Check the directory at /content/ and see that the dataset directory is already prepared
@@ -97,7 +96,6 @@ from ultralytics import YOLO
 
 # Load a pretrained model (largest model) in "/content/" directory i.e. local folder
 model = YOLO("yolo11n.pt")
-
-'''
+```
 
 
