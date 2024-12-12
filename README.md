@@ -15,6 +15,8 @@ BCCD has three kind of labels :
 - WBC
 - Platelets
 
+Below image is retrieved from the above dataset ![image](https://github.com/user-attachments/assets/8963ce8b-8fb4-4611-8ae7-3055080c6cb6)
+
 # First Use Roboflow on the above dataset for proceprocessing and augmentation
 
 On Roboflow make a project
@@ -24,6 +26,7 @@ Then
 **Image Preparation**
 
 Download the above dataset into local machine.
+
 
 Then unzip.
 
@@ -72,6 +75,6 @@ Dataset Split
 
 
 
-![image](https://github.com/user-attachments/assets/8963ce8b-8fb4-4611-8ae7-3055080c6cb6)
+
 
 
