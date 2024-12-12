@@ -1,5 +1,5 @@
 # yolo11n_bccd_cell_detection
-This repo contains codes to fine tune yolon11 and with bccd dataset for RBC, WBC and Platelets cell object detection
+This repo contains code and instruction to fine tune yolo11n and with bccd dataset for RBC, WBC and Platelets cell object detection and hosting the fine tuned model on huggingface space
 
 # Yolon11 Fine Tuning for BCCD Dataset object detection
 
