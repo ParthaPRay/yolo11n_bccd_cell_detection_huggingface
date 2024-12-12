@@ -85,6 +85,19 @@ It will allow to download the above projct by below code
 
 ![image](https://github.com/user-attachments/assets/3a4b9705-cf66-4b97-8f70-e5890a124b8a)
 
+# Then code below
 
+
+'''python
+# copy code from https://docs.ultralytics.com/tasks/detect/#faq
+
+# Check the directory at /content/ and see that the dataset directory is already prepared
+
+from ultralytics import YOLO
+
+# Load a pretrained model (largest model) in "/content/" directory i.e. local folder
+model = YOLO("yolo11n.pt")
+
+'''
 
 
